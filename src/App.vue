@@ -8,7 +8,14 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      num: 6
+    }
+  },
+  methods: {},
+  created () {}
 }
 </script>
 <style lang="less"></style>

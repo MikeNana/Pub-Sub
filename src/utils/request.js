@@ -6,7 +6,7 @@ import axios from 'axios'
 
 // 创建一个axios实例，通过该实例去发请求
 const request = axios.create({
-  baseURL: 'https://localhost:3000/'
+  baseURL: 'http://ttapi.research.itcast.cn/'
 })
 
 // 导出请求方法
